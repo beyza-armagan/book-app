@@ -40,7 +40,8 @@ export default function DetailsModal({
                 {selectedBook.volumeInfo.authors.join(", ")}
               </Text>
               <Text textAlign="center" fontSize="sm" mb={3}>
-                {selectedBook.volumeInfo.description}
+                {selectedBook.volumeInfo.description &&
+                  selectedBook.volumeInfo.description.slice(2)}
               </Text>
               <Text fontSize="sm">
                 Page Count: {selectedBook.volumeInfo.pageCount}
