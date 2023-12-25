@@ -1,5 +1,5 @@
 # Search Books App
-- This is a simple React application that allows users to search for books using the Google Books API.
+- This is a simple React application that allows users to search for books using the [Google Books API](https://developers.google.com/books/docs/overview).
 - The app uses Chakra UI for styling and components. It has responsive design for a better experience on various devices.
 
 ![Search Page](./src/assets/p2.PNG)
